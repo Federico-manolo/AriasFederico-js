@@ -1,0 +1,423 @@
+.Plata button {
+	background-image: url("/images/cart.png"), linear-gradient(135deg, #BDCAD9 0%, rgba(100, 98, 181, 0.9) 100%);
+}
+  
+  .Plata #card-inner #popup-text {
+	background: linear-gradient(135deg, #BDCAD9 0%, rgba(107, 106, 165, 0.9) 100%);
+  }
+  
+  .Plata #card-inner #card-top {
+	background: linear-gradient(135deg, #BDCAD9 0%, rgba(106, 105, 184, 0.9) 100%);
+  }
+  
+  .Plata #card-inner #card-top .info div.country {
+    border-bottom: 2px solid rgba(225, 218, 218, 0.1);		
+	}
+  
+  .Plata #card-inner #card-bottom {
+	background: linear-gradient(135deg, #BDCAD9 0%, rgba(133, 170, 213, 0.9) 100%);
+  }
+  
+  .Plata #card-inner #card-bottom:before {
+    background: rgb(220, 227, 235);
+	}
+
+  
+  .Plata #card-inner #card-bottom .stats {
+	border-top: 4px solid #BDCAD9;
+  }
+  
+  .Plata #card-inner #card-bottom .stats:after {
+	background: #BDCAD9;
+  }
+  
+  .Plata #card-inner #card-bottom .stats:before {
+	background: #BDCAD9;
+  }
+  
+.Bronce button {
+	background-image: url("/images/cart.png"), linear-gradient(135deg, #F2A65A 0%, #772F1A 100%);
+}
+  
+.Bronce #card-inner #popup-text {
+	background: linear-gradient(135deg, #BDCAD9 0%, #4847a9 100%);
+}
+  
+.Bronce #card-inner #card-top {
+	background: linear-gradient(135deg, #F2A65A 0%, #772F1A 100%);
+}
+  
+.Bronce #card-inner #card-top .info div.country {
+	border-bottom: 2px solid rgba(242, 166, 90, 0.1);
+}
+  
+.Bronce #card-inner #card-bottom {
+	background: linear-gradient(135deg, #F2A65A 0%, #772F1A 100%);
+}
+  
+.Bronce #card-inner #card-bottom:before {
+	background: #7b3723;
+}
+  
+.Bronce #card-inner #card-bottom .stats {
+	border-top: 4px solid #772F1A;
+}
+  
+.Bronce #card-inner #card-bottom .stats:after {
+	background: #772F1A;
+}
+  
+.Bronce #card-inner #card-bottom .stats:before {
+	background: #772F1A;
+}
+
+
+.Oro button {
+	background-image: url("/images/cart.png"), linear-gradient(135deg, #fdeaa7 0%, rgba(101, 81, 11, 0.9) 100%);
+}
+  
+.Oro #card-inner #popup-text {
+	background: linear-gradient(135deg, #fdeaa7 0%, rgba(253, 234, 167, 0.9) 100%);
+}
+  
+.Oro #card-inner #card-top {
+	background: linear-gradient(135deg, #fdeaa7 0%, rgba(165, 136, 29, 0.9) 100%);
+}
+  
+.Oro #card-inner #card-top .info div.country {
+	border-bottom: 2px solid rgba(253, 234, 167, 0.1);
+}
+  
+.Oro #card-inner #card-bottom {
+	background: linear-gradient(135deg, #fdeaa7 0%, rgba(165, 136, 29, 0.9) 100%);
+}
+  
+.Oro #card-inner #card-bottom:before {
+	background: rgba(253, 234, 167, 0.07);
+}
+  
+.Oro #card-inner #card-bottom .stats {
+	border-top: 4px solid #fdeaa7;
+}
+  
+.Oro #card-inner #card-bottom .stats:after {
+	background: #fdeaa7;
+}
+  
+.Oro #card-inner #card-bottom .stats:before {
+	background: #fdeaa7;
+}
+
+  #body {
+	position: relative;
+	min-height: 85vh;
+	width: 90%;
+	background: darken(#e1c072, 30%);
+	background: radial-gradient(ellipse at center, darken(#e1c072, 50%) 0%, darken(#e1c072, 80%));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  #body input {
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+	margin: 10px;
+	width: 50px;
+	height: 40px;
+	font-size: 18px;
+  }
+  
+  #body button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	cursor: pointer;
+  }
+  
+  #body button:hover {
+	filter: brightness(120%);
+  }
+  
+#card {
+	position: relative;
+	color: #725b16;
+	width: 270px;
+	height: 430px;
+	background: #ddd;
+	margin: auto;
+	clip-path: url("#svgPath");
+	display: block;
+	opacity: 1;
+  }
+  
+  #card-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #aaa;
+	height: 100%;
+	width: 100%;
+  }
+  
+  #card-inner #popup-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 54%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .popup-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .popup-content p {
+	margin-bottom: 10px;
+  }
+  
+  .popup-content h1 {
+	margin: 0;
+  }
+  
+  #card-inner #card-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 54%;
+	overflow: hidden;
+  }
+  
+  #card-inner #card-top .backfont {
+	position: absolute;
+	bottom: 30%;
+	line-height: 1;
+	font-size: 70px;
+	left: 1;
+	letter-spacing: -5px;
+	opacity: 1;
+	font-weight: 700;
+	font-style: italic;
+  }
+  
+  #card-inner #card-top .image {
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	height: 77%;
+	width: 57%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 1;
+  }
+  
+  #card-inner #card-top .info {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 3;
+	height: 75%;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+  }
+  
+  #card-inner #card-top .info div {
+	position: relative;
+	line-height: 1;
+	letter-spacing: -1px;
+	font-size: 20px;
+	opacity: 1;
+	top: 20px;
+  }
+  
+  #card-inner #card-top .info div.value {
+	font-size: 40px;
+  }
+  
+  #card-inner #card-top .info div.position,
+  #card-inner #card-top .info div.country {
+	padding-bottom: 2px;
+	font-weight: 700;
+	margin-bottom: 2px;
+  }
+  
+  #card-inner #card-top .info div.country,
+  #card-inner #card-top .info div.club {
+	position: relative;
+	display: block;
+	width: 40px;
+	margin: 3px auto;
+  }
+  
+  #card-inner #card-top .info div.country .imagenNacionalidad {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+  }
+  
+  #card-inner #card-top .info div.club {
+	height: 60px;
+  }
+  
+  #card-inner #card-top .info div.club .imagenEquipo {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+  }
+  
+  #card-inner #card-bottom {
+	overflow: auto;
+	position: absolute;
+	overflow: hidden;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 46%;
+  }
+  
+  #card-inner #card-bottom:before {
+	content: "";
+	position: absolute;
+	height: 90%;
+	left: 0;
+	top: -1px;
+	width: 100%;
+	height: 3px;
+  }
+  
+  #card-inner #card-bottom .name {
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+	opacity: 1;
+	top: -5px;
+	position: relative;
+	margin: 6px 0;
+  }
+  
+  #card-inner #card-bottom .stats {
+	position: relative;
+	margin: 0 40px;
+	padding-top: 10px;
+  }
+  
+  #card-inner #card-bottom .stats:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	height: 4px;
+	width: 0;
+	width: 25%;
+  }
+  
+  #card-inner #card-bottom .stats:before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: 5% auto;
+	height: 0%;
+	width: 4px;
+  }
+  
+  #card-inner #card-bottom .stats div {
+	width: 49%;
+	vertical-align: top;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 18px;
+  }
+  
+  #card-inner #card-bottom .stats div:last-child ul {
+	margin-left: 20px;
+  }  
+  
+  #card-inner #card-bottom .stats ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  #card-inner #card-bottom .stats ul li {
+	margin: 0;
+	position: relative;
+	padding: 0;
+	display: block;
+	margin-bottom: 5px;
+	opacity: 1;
+	left: 20px;
+  }
+  
+  #card-inner #card-bottom .stats ul li span {
+	position: relative;
+	display: inline-block;
+  }
+  
+  #card-inner #card-bottom .stats ul li span:first-child {
+	font-weight: 700;
+	width: 30px;
+	text-align: left;
+  }
+  
+  #card {
+	display: block;
+	cursor: pointer;
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+#card-inner #card-top .image {
+  right: 1;
+  opacity: 1;
+}
+
+#card-inner #card-top .info div {
+  opacity: 1;
+  top: 0;
+}
+
+#card-inner #card-bottom .stats:before {
+  height: 90%;
+}
+
+#card-inner #card-bottom .stats ul li {
+  opacity: 1;
+  left: 0;
+}
+
+#card-inner #card-bottom .name {
+  opacity: 1;
+  top: 0;
+}
+
+  

@@ -1,0 +1,43 @@
+.navbar-logo {
+    height: 60px;
+    margin-right: 10px;
+    justify-content: right;
+  }
+  
+  .navbar-cart-icon {
+    height: 30px;
+    justify-content: right;
+
+  }
+
+  .navbar-cart-icon:hover {
+    background-color: rgb(210, 210, 210);
+  }
+
+  @media (max-width: 767px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .navbar-brand {
+      width: 100%;
+      justify-content: right;
+    }
+    
+    .navbar-nav {
+      width: 100%;
+    }
+    
+    .navbar-toggler {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .navbar-cart-icon {
+      margin: 10px;
+    }
+  }
+  

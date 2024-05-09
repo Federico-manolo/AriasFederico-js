@@ -1,0 +1,67 @@
+/* Carrito.css */
+
+.container {
+    margin-top: 20px;
+
+    max-height: 80vh;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .img-fluid {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+  }
+  
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  .card-header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .costo {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .cant-producto {
+    text-align: right;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+  }
+  
+  
